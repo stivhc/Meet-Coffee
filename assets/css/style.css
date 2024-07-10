@@ -1,0 +1,208 @@
+/* CONFIGURACIÓN GENERAL */
+* {                    /*esto formatea todos los margenes*/
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+/* Barra de Navegación */
+
+
+/* Body */
+body {
+    text-align: center;
+    color: #000f08;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+}
+
+/* Navbar */
+nav {
+    background-color: #000f08;
+    color: white;
+    text-align: start;
+    font-size: 25px;
+    /* el padding se puede hasta cuatro dimensiones y funciona como manecilla del reloj (arriba, dercha, abajo, izquierda): El padding también se puede realizar con paddig-left, padding-start, etc.*/
+    padding: 20px 120px;    
+    /*top right bottom left*/
+}
+
+/*acá le estamos diciendo que queremos que nuestro nav (el cual contiene ul li) se nos muestre (display) como un bloque en linea*/
+nav ul li {
+    display: inline-block;
+    /*ahora quiero que queremos que los textos de la lista que estan muy juntos se separen 60 pixeles para que no esten tan juntos una palabra de otro*/
+    margin-right: 60px;
+    /*ahora le estoy diciendo que esta lista de texto este más centrado en función del icono de nuestra página*/
+    vertical-align: middle;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;  /* esto es para que los textos no tengan subrayado*/
+}
+/* Nav */
+
+/* Header (Hero Section)*/
+
+header {
+    background-image: url(../img/bg-hero.png); /*los .. son para poder salir hacia la carpeta assets ya que son dos pasos hacia atrás*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0px 3px 6px #000000;
+    text-align: right;
+    color: white;
+    padding: 100px;
+}
+
+header h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+header h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 1cm;
+    font-weight: 400;
+}
+
+/*sección 1*/
+
+#Ubicacion {
+    padding: 150px;
+}
+
+#Ubicacion h2 {
+    font-size: 45px;
+    margin: 40px 0px 20px 0px;
+}
+
+#Ubicacion p {
+    font-size: 25px;
+}
+
+/*sección 2*/
+
+#Proxima-charla {
+    background-color: #a4452c;
+    color: white;
+    padding: 100px;
+}
+
+#Proxima-charla img {
+    height: 400px;
+}
+
+#Proxima-charla img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Proxima-charla .texto {
+    text-align: left;
+    width: 40%;
+    margin-left: 40px;
+}
+
+#Proxima-charla .texto h3 {
+    font-size: 45px;
+}
+    
+#Proxima-charla .texto h4 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+    
+#Proxima-charla .texto h6 {
+    font-size: 33px;
+}
+    
+#Proxima-charla .texto span {
+    font-size: 20px;
+}
+    
+#Proxima-charla .texto p {
+    font-size: 25px;
+}
+    
+#Proxima-charla .texto h6, span, p {
+    font-weight: 400;
+}
+
+
+/*sección3: eventos anteriores */
+
+#Eventos {
+    padding: 100px;
+}
+
+#Eventos h2 {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+#Eventos a {
+    text-decoration: none;
+    color: #000;
+}
+
+#Eventos article {
+    display: inline-block;
+    margin: 0px 50px;
+    font-size: 35px;
+}
+
+#Eventos article img {
+    margin-bottom: 45px;
+}
+   
+/*FOOTER*/
+footer {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 120px 100px 100px 100px;
+    font-size: 25px;
+}
+
+footer a {
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 40px;
+}
+
+/* Pagina evento01.html */
+
+.simposio-vegan {
+    width: 1085px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.simposio-vegan img{
+    width: 100%;
+    height: 565px;
+    margin: 40px 0;
+}
+
+.simposio-vegan h1 {
+    font-size: 45px;
+}
+
+.simposio-vegan h2 {
+    font-size: 40px;
+}
+
+.simposio-vegan p{
+    margin: 30px 0;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #000F08;
+}
